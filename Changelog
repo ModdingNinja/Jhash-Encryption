@@ -1,0 +1,22 @@
+01/19/2020
+1.1
+	Added encryptKeyless() attribute
+	Added decryptKeyless() attribute
+
+01/21/2020
+1.2
+	Added convertColor() attribute
+
+1.2.1
+	convertColor() now takes arg 'capital' which is True by default
+
+02/15/2020
+1.2.2
+	convertFromColor() added
+		takes base-16 color codes and decrypts them to an ASCII list
+		prefix can be anything as long as the color code is 6 characters long
+	convertColor() arg ‘capital’ is now False by default
+
+02/17/2020
+1.2.3
+	convertFromColor() now works on all 6-character color codes
